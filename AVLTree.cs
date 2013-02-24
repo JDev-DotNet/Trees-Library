@@ -38,7 +38,7 @@ namespace JDev.Trees
     /// <typeparam name="TValue">Kiểu dữ liệu của dữ liệu</typeparam>
     /// <remarks>Tốc độ tốt nhất so với các cây AVL còn lại</remarks>
     [Serializable()]
-    public sealed class AVLTree<TKey, TValue> : IEnumerable<TValue>
+    public class AVLTree<TKey, TValue> : IEnumerable<TValue>
     {
         #region Implement
 
@@ -1036,7 +1036,7 @@ namespace JDev.Trees
     /// </summary>
     /// <typeparam name="TValue">Kiểu dữ liệu của dữ liệu</typeparam>
     [Serializable()]
-    public sealed class AVLTree<TValue>
+    public class AVLTree<TValue>
     {
         #region Fields
 

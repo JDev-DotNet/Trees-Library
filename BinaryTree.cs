@@ -12,7 +12,7 @@ namespace JDev.Trees
     /// <typeparam name="TKey">Kiểu dữ liệu của khóa của dữ liệu</typeparam>
     /// <typeparam name="TValue">Kiểu dữ liệu của dữ liệu</typeparam>
     [Serializable()]
-    public sealed class BinaryTreeOutputData<TKey, TValue>
+    public class BinaryTreeOutputData<TKey, TValue>
     {
         /// <summary>
         /// Dữ liệu
@@ -34,7 +34,7 @@ namespace JDev.Trees
     /// </summary>
     /// <typeparam name="TValue">Kiểu dữ liệu của dữ liệu</typeparam>
     [Serializable()]
-    public sealed class BinaryTree<TValue>
+    public class BinaryTree<TValue>
     {
         #region class BinaryTreeNode<T>
 
@@ -468,7 +468,7 @@ namespace JDev.Trees
     /// <typeparam name="TValue">Kiểu dữ liệu của dữ liệu</typeparam>
     /// <typeparam name="TKey">Kiểu dữ liệu của khóa của dữ liệu</typeparam>
     [Serializable()]
-    public sealed class BinaryTree<TKey, TValue>
+    public class BinaryTree<TKey, TValue>
     {
         #region class BinaryTreeNode<TypeOfKey, TypeOfData>
 
